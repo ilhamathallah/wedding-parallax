@@ -20,7 +20,7 @@ export default function WeddingOpening() {
   useEffect(() => {
     if (!opening) return;
 
-    let scrollTimer: ReturnType<typeof setTimeout> | undefined;
+    let scrollTimer: number | undefined;
 
     const timer = window.setTimeout(
       () => {
