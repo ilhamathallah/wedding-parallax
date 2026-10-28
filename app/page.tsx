@@ -5,14 +5,11 @@ import StorySection from "@/components/StorySection";
 import GallerySection from "@/components/GallerySection";
 import WeddingDetails from "@/components/WeddingDetails";
 import ClosingSection from "@/components/ClosingSection";
-import CinematicAutoScroll from "@/components/CinematicAutoScroll";
 
 export default function Home() {
   return (
     <>
       <WeddingOpening />
-
-      <CinematicAutoScroll />
       <main className="relative">
         <WeddingHero />
         <IntroSection />
@@ -21,9 +18,9 @@ export default function Home() {
         <WeddingDetails />
         <ClosingSection />
 
-        <div className="h-screen bg-[#f5efe6] p-10 text-black">
+        {/* <div className="h-screen bg-[#f5efe6] p-10 text-black">
           TEST AUTO SCROLL
-        </div>
+        </div> */}
       </main>
     </>
   );

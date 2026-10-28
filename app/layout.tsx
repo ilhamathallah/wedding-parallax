@@ -3,7 +3,7 @@ import { Cormorant_Garamond, Jost } from "next/font/google";
 import "./globals.css";
 import Providers from "@/components/Providers";
 import { wedding } from "@/lib/config";
-// import BackgroundMusic from "@/components/BackgroundMusic";
+import FlowerTrail from "@/components/FlowerTrail";
 
 const display = Cormorant_Garamond({
   subsets: ["latin"],
@@ -39,7 +39,9 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <body suppressHydrationWarning>
-        <Providers>{children}</Providers>
+        <Providers>
+          {children}
+        </Providers>
         {/* <BackgroundMusic /> */}
       </body>
     </html>

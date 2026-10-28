@@ -101,10 +101,6 @@ export default function WeddingOpening() {
                     ease: [0.22, 1, 0.36, 1],
                   }}
                 >
-                  <span className="mb-3 text-[8px] uppercase tracking-[0.28em] text-[#978467]">
-                    Wedding invitation
-                  </span>
-
                   <span className="font-serif text-[27px] italic leading-tight text-[#514637] sm:text-3xl">
                     Alexandra
                   </span>
@@ -253,14 +249,14 @@ export default function WeddingOpening() {
               </div>
             </div>
 
-            <motion.p
+            {/* <motion.p
               className="mb-3 text-[9px] uppercase tracking-[0.3em] text-[#85745b]"
               initial={reducedMotion ? false : { opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.3, duration: 0.8 }}
             >
               20 June 2027 · Bali, Indonesia
-            </motion.p>
+            </motion.p> */}
 
             <motion.h1
               className="mb-7 font-serif text-3xl font-light italic sm:text-4xl"
@@ -271,9 +267,9 @@ export default function WeddingOpening() {
               A day to remember
             </motion.h1>
 
-            <p className="text-[8px] uppercase tracking-[0.24em] text-[#a09480]">
+            {/* <p className="text-[8px] uppercase tracking-[0.24em] text-[#a09480]">
               With love, Alexandra & Nathaniel
-            </p>
+            </p> */}
           </motion.div>
         </motion.section>
       )}

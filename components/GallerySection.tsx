@@ -39,10 +39,6 @@ export default function GallerySection() {
         <h2 className="font-serif text-4xl sm:text-6xl">
           A story in <span className="italic">photographs.</span>
         </h2>
-
-        <p className="mx-auto mt-6 max-w-md text-sm leading-7 text-[#75685b]">
-          Little pieces of our journey, held forever in time.
-        </p>
       </motion.div>
 
       <div className="mx-auto grid max-w-6xl gap-10 sm:grid-cols-2 md:grid-cols-3 md:gap-8">
